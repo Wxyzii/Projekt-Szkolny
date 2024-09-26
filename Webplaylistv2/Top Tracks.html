@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Navbar</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="CSS/Top Traks.css">
+  <script src="Java/Top Tracks Java.js"></script>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="Homepage.html">Home</a>
+    
+    <!-- Dropdown for Top Artists -->
+    <div class="dropdown">
+      <a href="Top Artists.html">Top Artists ▼</a>
+      <div class="dropdown-content">
+        <a href="#artist1">Artist 1</a>
+        <a href="#artist2">Artist 2</a>
+        <a href="#artist3">Artist 3</a>
+      </div>
+    </div>
+
+    <!-- Dropdown for Top Tracks -->
+    <div class="dropdown">
+      <a href="#">Top Tracks ▼</a>
+      <div class="dropdown-content">
+        <a href="#track1">Track 1</a>
+        <a href="#track2">Track 2</a>
+        <a href="#track3">Track 3</a>
+      </div>
+    </div>
+
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- The button to open the sidebar -->
+  <div id="main">
+    <button id="openBtn" class="openbtn" onclick="openNav()">☰</button>  
+  </div>
+
+
+</body>
+</html>
